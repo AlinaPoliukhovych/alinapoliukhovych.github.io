@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+	<meta name="keywords" content="test_site, site, website"/>
+	<meta name="description" content="It's my first site about..."/>
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+	<link href="image/icon.ico" rel="shortcut icon" type="image/x-icon"/>
+	<title>ENGLISH? - Easy-peasy!</title>
+</head>
+<body>
+<header>
+	<a href="Easy-peasy.html" title="На головну" id="logo">ENGLISH? - Easy-peasy!
+	</a><span class="contact"><a href="about.html" title="Інформація про нас
+	">Про нас</a></span><input type="search" class="field" placeholder=
+	"Пошук.."/><span class ="right"><span class ="contact"><a href="reg.html"
+	title="Зареєструватися">Реєстрація</a><span class
+	="contact"><a href="auth.html" title="Увійти">Вхід</a></span></span>
+</header>
+<div class="clear"><br/></div>
+<center>
+	<div id ="menu">Розділи<hr /></div> 
+	<div id ="menuHrefs">
+		<a href="program.html">Наша програма</a>
+		<a href="about.html">Про нас</a>
+		<a href="feedback.html">Зворотній зв'язок</a>
+	</div>
+</center>
+<br/>
+<br/>
+<div id="regith">
+<center><div id="reg_title">Вхід</div></center>
+	<form action="" method="post">
+	
+		<label for="adress">Ел. адреса*:</label>
+		<input type="email" id="adress" required placeholder="adress@examle.com"/>
+		
+		<label for="password">Пароль*:</label>
+		<input type="password" required id="password"/>
+		
+		<script type="text/javascript">
+			function toSavePassword(toSave){
+				confirm("Зберегти пароль?");
+			}
+		</script>
+		
+		<input type="submit" value="Ввійти" id="send" name="send" onclick="toSavePassword();"/>
+		
+	</form>
+</div>
+<br/>
+<br/>
+<footer>
+<span class = "footer">Всі права захищені &copy; 2019</span><span class="footer_right">
+	<a href ="https://www.instagram.com"><big>Приєднуйтесь</big><img src="image/inst1.jpg" 
+	alt="Instagram" title="Instagram"/></span></a>
+</footer>
+</body>
+</html>
